@@ -1,0 +1,6 @@
+{
+	"coc.preferences.formatOnSave": true,
+	"Lua.diagnostics.globals": [
+		"vim"
+	]
+}

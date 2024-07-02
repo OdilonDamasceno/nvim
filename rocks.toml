@@ -1,0 +1,72 @@
+# This is your rocks.nvim plugins declaration file.
+# Here is a small yet pretty detailed example on how to use it:
+#
+# [plugins]
+# nvim-treesitter = "semver_version"  # e.g. "1.0.0"
+
+# List of non-Neovim rocks.
+# This includes things like `toml` or other lua packages.
+[rocks]
+
+# List of Neovim plugins to install alongside their versions.
+# If the plugin name contains a dot then you must add quotes to the key name!
+[plugins]
+"rocks.nvim" = "2.30.1" # rocks.nvim can also manage itself :D
+"rocks-git.nvim" = "1.5.1"
+"nvim-lspconfig" = { git = "neovim/nvim-lspconfig" }
+"coq_nvim" = { git = "ms-jpq/coq_nvim", branch = "coq" }
+"coq.artifacts" = { git = "ms-jpq/coq.artifacts", branch = "artifacts" }
+"coq.thirdparty" = { git = "ms-jpq/coq.thirdparty", branch = "3p" }
+"gruvbox.nvim" = { git = "ellisonleao/gruvbox.nvim" }
+"nvim-treesitter" = { git = "nvim-treesitter/nvim-treesitter" }
+"alpha-nvim" = { git = "goolord/alpha-nvim" }
+"nvim-web-devicons" = { git = "nvim-tree/nvim-web-devicons" }
+"nvim-material-icon" = { git = "DaikyXendo/nvim-material-icon" }
+"fzf-lsp.nvim" = { git = "gfanto/fzf-lsp.nvim" }
+"plenary.nvim" = { git = "nvim-lua/plenary.nvim" }
+"telescope.nvim" = { git = "nvim-telescope/telescope.nvim" }
+"neo-tree.nvim" = { git = "nvim-neo-tree/neo-tree.nvim", branch = "v3.x" }
+"nui.nvim" = { git = "MunifTanjim/nui.nvim" }
+"image.nvim" = { git = "3rd/image.nvim" }
+"lualine.nvim" = { git = "nvim-lualine/lualine.nvim" }
+
+[plugins."autoclose.nvim"]
+git = "m4xshen/autoclose.nvim"
+
+[plugins."statuscol.nvim"]
+git = "luukvbaal/statuscol.nvim"
+
+[plugins.nvim-treesitter-context]
+git = "nvim-treesitter/nvim-treesitter-context"
+rev = "compat/0.7"
+
+[plugins."indent-blankline.nvim"]
+git = "lukas-reineke/indent-blankline.nvim"
+rev = "v3.6.2"
+
+[plugins.chadtree]
+git = "ms-jpq/chadtree"
+
+[plugins."toggleterm.nvim"]
+git = "akinsho/toggleterm.nvim"
+rev = "v2.9.0"
+
+[plugins."coc.nvim"]
+git = "neoclide/coc.nvim"
+branch = 'release'
+
+[plugins."bufferline.nvim"]
+git = "akinsho/bufferline.nvim"
+rev = "v4.6.1"
+
+[plugins."blamer.nvim"]
+git = "APZelos/blamer.nvim"
+rev = "v1.3.0"
+
+[plugins."nvim-tree.lua"]
+git = "nvim-tree/nvim-tree.lua"
+rev = "v1.4.0^{}"
+
+[plugins."barbar.nvim"]
+git = "romgrk/barbar.nvim"
+rev = "v1.8.0^{}"
